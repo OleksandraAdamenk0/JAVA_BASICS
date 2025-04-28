@@ -8,7 +8,8 @@ public class Main {
         final int n = 7;
         if (x > 5) return (Math.pow((x - 4), 1 / 3.0) / Math.pow(Math.E, x - 5) + 4);
         double y = 1;
-        for (int i = 1; i <= n; i++) y *= Math.pow(Math.sin(x / 2 - 2.5), i);
+        for (int i = 1; i <= n; i++)
+            y *= Math.pow(Math.sin(x / 2 - 2.5), i);
         return y + x;
     }
 

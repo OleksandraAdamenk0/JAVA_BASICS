@@ -4,7 +4,7 @@ public class Main {
     public static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-    // Task 2
+//     Task 2
 //        PowerOfEight.task();
 
         // Task 3
@@ -14,6 +14,6 @@ public class Main {
 //        Fibonacci.task();
 
         // Task 5
-//        LibraryTask.task();
+        LibraryTask.task();
     }
 }
